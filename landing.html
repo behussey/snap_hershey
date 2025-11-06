@@ -23,17 +23,23 @@
       font-size: 1rem;
     }
 
-    section {
-      height: 100vh;
-      scroll-snap-align: start;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1rem;
-      font-weight: 600;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-	img style=clear:both;
-    }
+	section {
+	height: 100vh;
+	scroll-snap-align: start;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	font-weight: 600;
+	border-bottom: 1px solid rgba(255,255,255,0.08);
+	}
+	
+	
+	section img {
+	display: block;
+	margin-bottom: 12px;
+	}
 
     /* Colors for easy distinction */
     #one { background: #1a1f35; }
